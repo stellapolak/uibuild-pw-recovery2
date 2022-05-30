@@ -1,0 +1,71 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6e6e6;
+      
+}
+
+.h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    color: #138073;
+    margin-top: 80px;
+    
+    @media screen and (max-width: 520px) {
+        font-size: 24px;
+    }
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 480px;
+    height: auto;
+    padding-bottom: 15px;
+    
+}
+
+.instructions{
+    padding: 15px 20px 0 20px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #138073;;
+    background-color: #f9c582;
+    word-spacing: 3px;
+    line-height: 25px;
+
+    @media screen and (max-width: 520px) {
+        width: 100%;
+    }
+}
+
+.span {
+    font-weight: 400;
+}
+    
+
+.input-field{
+    max-width: 480px;
+    height: 64px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    border-color: #999;
+    background-color: transparent;
+    color: #b3b3b3;
+    border: 3px;
+    margin: 10px;
+    text-indent: 10px;
+
+    @media screen and (max-width: 520px) {
+        width: 100%-40px;
+        margin-left: 20px;
+    }
+}
+
